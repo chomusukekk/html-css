@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    border: 0px;
+    box-sizing: content-box;
+    font-family: 'poppins' , sans-serif;
+}
+
+body>.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(34, 34, 34);
+    width: 100%;
+    height: 100vh;
+}
+
+body>.container>.cartao {
+    width: 430px;
+    height: auto;
+    border-radius: 10px;
+    background:rgb(92, 92, 92);
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.415);
+    overflow: hidden;
+}
+
+body>.container>.cartao>.img {
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("https://media.tenor.com/tM-ehaG0Ud4AAAAC/konosuba-chomusuke.gif");
+}
+
+body>.container>.cartao>.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px
+}
+
+body>.container>.cartao>.info>.titulo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(28, 28, 28);
+}
+
+body>.container>.cartao>.info>.descriçao {
+    margin-bottom: 20px;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(28, 28, 28);
+}
+
+body>.container>.cartao>.info>.links {
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    width: 200px;
+}
+
+a:link {
+    text-decoration: none;
+    color:rgb(34, 34, 34);
+}
+
+a:visited {
+    color:rgb(34, 34, 34);
+    text-decoration:none;
+  }
+
+a:hover {
+    color:#8c8c8c9c;
+    text-decoration:none;
+  }
